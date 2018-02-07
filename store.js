@@ -4,7 +4,7 @@ import thunk from 'redux-thunk';
 import messageReducer from './reducers/message';
 
 const reducer = combineReducers({
-	messageReducer
+  messageReducer
 });
 
 const store = createStore(reducer, applyMiddleware(thunk));
